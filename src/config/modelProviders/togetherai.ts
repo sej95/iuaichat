@@ -5,14 +5,16 @@ import { ModelProviderCard } from '@/types/llm';
 const TogetherAI: ModelProviderCard = {
   chatModels: [
     {
-      description: 'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
+      description:
+        'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
       displayName: 'Llama 3.2 3B Instruct Turbo',
       enabled: true,
       id: 'meta-llama/Llama-3.2-3B-Instruct-Turbo',
       tokens: 131_072,
     },
     {
-      description: 'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
+      description:
+        'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
       displayName: 'Llama 3.2 11B Vision Instruct Turbo (Free)',
       enabled: true,
       id: 'meta-llama/Llama-Vision-Free',
@@ -20,14 +22,16 @@ const TogetherAI: ModelProviderCard = {
       vision: true,
     },
     {
-      description: 'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
+      description:
+        'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
       displayName: 'Llama 3.2 11B Vision Instruct Turbo',
       id: 'meta-llama/Llama-3.2-11B-Vision-Instruct-Turbo',
       tokens: 131_072,
       vision: true,
     },
     {
-      description: 'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
+      description:
+        'LLaMA 3.2 旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，跨越了语言生成和视觉推理之间的鸿沟。',
       displayName: 'Llama 3.2 90B Vision Instruct Turbo',
       enabled: true,
       id: 'meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo',
@@ -151,7 +155,8 @@ const TogetherAI: ModelProviderCard = {
       tokens: 8192,
     },
     {
-      description: 'Mistral 7B是一款紧凑但高性能的模型，擅长批量处理和简单任务，如分类和文本生成，具有良好的推理能力。',
+      description:
+        'Mistral 7B是一款紧凑但高性能的模型，擅长批量处理和简单任务，如分类和文本生成，具有良好的推理能力。',
       displayName: 'Mistral (7B)',
       id: 'mistralai/Mistral-7B-v0.1',
       tokens: 8192,
@@ -165,7 +170,8 @@ const TogetherAI: ModelProviderCard = {
       tokens: 32_768,
     },
     {
-      description: 'Mixtral 8x7B是一个稀疏专家模型，利用多个参数提高推理速度，适合处理多语言和代码生成任务。',
+      description:
+        'Mixtral 8x7B是一个稀疏专家模型，利用多个参数提高推理速度，适合处理多语言和代码生成任务。',
       displayName: 'Mixtral-8x7B (46.7B)',
       id: 'mistralai/Mixtral-8x7B-v0.1',
       tokens: 32_768,

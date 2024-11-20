@@ -38,7 +38,7 @@ export class LobeSenseNovaAI implements LobeRuntimeAI {
     } catch {
       throw invalidSenseNovaAPIKey;
     }
-    
+
     const header = { Authorization: `Bearer ${token}` };
 
     const llm = new OpenAI({ apiKey, baseURL, defaultHeaders: header, ...res });
@@ -87,10 +87,14 @@ export class LobeSenseNovaAI implements LobeRuntimeAI {
     return {
       messages: await convertOpenAIMessages(messages as any),
       ...params,
-      frequency_penalty: (frequency_penalty !== undefined && frequency_penalty > 0 && frequency_penalty <= 2) ? frequency_penalty : undefined,
+      frequency_penalty:
+        frequency_penalty !== undefined && frequency_penalty > 0 && frequency_penalty <= 2
+          ? frequency_penalty
+          : undefined,
       stream: true,
-      temperature: (temperature !== undefined && temperature > 0 && temperature <= 2) ? temperature : undefined,
-      top_p: (top_p !== undefined && top_p > 0 && top_p < 1) ? top_p : undefined,
+      temperature:
+        temperature !== undefined && temperature > 0 && temperature <= 2 ? temperature : undefined,
+      top_p: top_p !== undefined && top_p > 0 && top_p < 1 ? top_p : undefined,
     };
   }
 }

@@ -157,7 +157,8 @@ const FireworksAI: ModelProviderCard = {
       vision: true,
     },
     {
-      description: 'Qwen2.5 是由阿里云 Qwen 团队开发的一系列仅包含解码器的语言模型。这些模型提供不同的大小，包括 0.5B、1.5B、3B、7B、14B、32B 和 72B，并且有基础版（base）和指令版（instruct）两种变体。',
+      description:
+        'Qwen2.5 是由阿里云 Qwen 团队开发的一系列仅包含解码器的语言模型。这些模型提供不同的大小，包括 0.5B、1.5B、3B、7B、14B、32B 和 72B，并且有基础版（base）和指令版（instruct）两种变体。',
       displayName: 'Qwen2.5 72B Instruct',
       enabled: true,
       functionCall: false,

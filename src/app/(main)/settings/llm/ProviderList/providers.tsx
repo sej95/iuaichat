@@ -37,8 +37,8 @@ import { useGithubProvider } from './Github';
 import { useHuggingFaceProvider } from './HuggingFace';
 import { useOllamaProvider } from './Ollama';
 import { useOpenAIProvider } from './OpenAI';
-import { useWenxinProvider } from './Wenxin';
 import { useSenseNovaProvider } from './SenseNova';
+import { useWenxinProvider } from './Wenxin';
 
 export const useProviderList = (): ProviderItem[] => {
   const AzureProvider = useAzureProvider();
