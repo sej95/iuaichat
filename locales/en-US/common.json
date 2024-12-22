@@ -31,7 +31,7 @@
   "batchDelete": "Batch Delete",
   "blog": "Product Blog",
   "branching": "Create Subtopic",
-  "branchingDisable": "The 'Subtopic' feature is only available in the server version. If you need this feature, please switch to server deployment mode or use LobeChat Cloud.",
+  "branchingDisable": "The 'Subtopic' feature is only available in the server version. If you need this feature, please switch to server deployment mode or use IuaiChat Cloud.",
   "cancel": "Cancel",
   "changelog": "Changelog",
   "clientDB": {
@@ -59,14 +59,14 @@
       "features": {
         "knowledgeBase": {
           "desc": "Build your personal knowledge base and easily start conversations with your assistant (coming soon)",
-          "title": "Support for knowledge base conversations, unlock your second brain"
+          "title": "Support for knowledge base conversations"
         },
         "localFirst": {
           "desc": "Chat data is stored entirely in the browser, keeping your data always under your control.",
           "title": "Local first, privacy first"
         },
         "pglite": {
-          "desc": "Built on PGlite, natively supports AI Native advanced features (vector retrieval)",
+          "desc": "Built on PGlite, natively supports AI Native advanced features (vector search)",
           "title": "Next-generation client storage architecture"
         }
       },
@@ -119,7 +119,7 @@
     "and": "and",
     "feedback": {
       "action": "Share Feedback",
-      "desc": "Every idea and suggestion from you is precious to us. We can't wait to hear your thoughts! Feel free to contact us to provide feedback on product features and user experience, helping us make LobeChat even better.",
+      "desc": "Every idea and suggestion from you is precious to us. We can't wait to hear your thoughts! Feel free to contact us to provide feedback on product features and user experience, helping us make IuaiChat even better.",
       "title": "Share Your Valuable Feedback on GitHub"
     },
     "later": "Later",
@@ -268,9 +268,9 @@
   "telemetry": {
     "allow": "Allow",
     "deny": "Deny",
-    "desc": "We would like to anonymously collect usage information to help us improve LobeChat and provide you with a better product experience. You can disable this at any time in Settings - About.",
+    "desc": "We would like to anonymously collect usage information to help us improve IuaiChat and provide you with a better product experience. You can disable this at any time in Settings - About.",
     "learnMore": "Learn More",
-    "title": "Help LobeChat be better"
+    "title": "Help IuaiChat be better"
   },
   "temp": "Temporary",
   "terms": "Terms of Service",
