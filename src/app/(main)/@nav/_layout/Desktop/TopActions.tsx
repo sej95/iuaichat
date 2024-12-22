@@ -38,7 +38,7 @@ const TopActions = memo<TopActionProps>(({ tab, isPinned }) => {
         />
       </Link>
       {enableKnowledgeBase && (
-        <Link aria-label={t('tab.files')} href={'/files'}>
+        <Link aria-label={t('tab.files')} href={'/'}>
           <ActionIcon
             active={tab === SidebarTabKey.Files}
             icon={FolderClosed}
