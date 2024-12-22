@@ -11,7 +11,7 @@ export const UTM_SOURCE = 'chat_preview';
 
 export const OFFICIAL_URL = 'https://chathub.us.kg/';
 export const OFFICIAL_PREVIEW_URL = 'https://chat-top.vercel.app/';
-export const OFFICIAL_SITE = 'https://chathub.us.kg/';
+export const OFFICIAL_SITE = 'https://iuaihub.github.io/';
 
 export const OG_URL = '/og/cover.png?v=1';
 
