@@ -9,6 +9,6 @@ export const isServerMode = getServerDBConfig().NEXT_PUBLIC_ENABLED_SERVER_SERVI
 export const isUsePgliteDB = process.env.NEXT_PUBLIC_CLIENT_DB === 'pglite';
 
 // @ts-ignore
-export const isCustomBranding = BRANDING_NAME !== 'LobeChat';
+export const isCustomBranding = BRANDING_NAME !== 'IuaiChat';
 // @ts-ignore
-export const isCustomORG = ORG_NAME !== 'LobeHub';
+export const isCustomORG = ORG_NAME !== 'IuaiHub';
