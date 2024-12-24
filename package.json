@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/chat",
-  "version": "1.39.0",
+  "version": "1.39.1",
   "description": "Iuai Chat - an open-source, high-performance chatbot framework that supports speech synthesis, multimodal, and extensible Function Call plugin system. Supports one-click free deployment of your private ChatGPT/LLM web application.",
   "keywords": [
     "framework",
@@ -23,7 +23,7 @@
     "url": "https://github.com/iuaihub/iuai-chat.git"
   },
   "license": "MIT",
-  "author": "IuaiHub <i@lobehub.com>",
+  "author": "IuaiHub <i@Iuaihub.com>",
   "sideEffects": false,
   "scripts": {
     "build": "next build",
